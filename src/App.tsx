@@ -1,10 +1,11 @@
 import Navbar from './components/NavBar'
+import Hero from "./components/Hero.tsx";
 
 const App = () => {
     return (
         <main>
-        <Navbar />
-        <h1 className="text-3xl font-bold underline text-indigo-700">Hello World</h1>
+            <Navbar />
+            <Hero />
         </main>
     )
 }

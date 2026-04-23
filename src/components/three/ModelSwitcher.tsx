@@ -39,7 +39,7 @@ const ModelSwitcher = ({modelSize, isMobile}:{modelSize:ModelSize; isMobile:bool
     const controlsConfig:{snap:boolean,speed:number,zoom:number,azimuth:[number,number],config:{mass:number,tension:number,friction:number}}={
         snap:true,
         speed:1,
-        zoom:5,
+        zoom:1,
         azimuth: [-Infinity, Infinity],
         config:{mass:1, tension:170, friction:26}
     }

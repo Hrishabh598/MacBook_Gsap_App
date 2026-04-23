@@ -5,8 +5,10 @@ const Hero = () => {
     const videoRef   = useRef<HTMLVideoElement>(null);
     return (
         <section id="hero">
-            <h1>MacBook Pro</h1>
-            <img src="/title.png" alt="MacBook Pro" />
+            <div>
+                <h1>MacBook Pro</h1>
+                <img src="/title.png" alt="MacBook Pro" />
+            </div>
 
             <video ref={videoRef} src='/videos/hero.mp4' autoPlay playsInline muted />
 

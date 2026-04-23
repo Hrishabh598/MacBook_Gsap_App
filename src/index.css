@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @font-face {
     font-family: "Regular";
-    src: url("./fonts/regular.otf")
+    src: url("/fonts/regular.otf");
 }
 
 @font-face {
@@ -105,7 +105,7 @@ body {
                 @apply flex-center gap-8;
 
                 a {
-                    @apply hidden md:block text-white opacity-80 font-regular text-sm cursor-pointer hover:opacity-100 transition-all duration-300 ease-in-out;
+                    @apply hidden md:block hover:-translate-y-0.5 text-white opacity-80 font-regular text-sm cursor-pointer hover:opacity-100 transition-all duration-300 ease-in-out;
                 }
             }
         }

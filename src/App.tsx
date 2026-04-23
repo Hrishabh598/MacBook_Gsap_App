@@ -4,6 +4,7 @@ import ProductViewer from "./components/ProductViewer.tsx";
 import ColorScaleProvider from "./store";
 import gsap from "gsap";
 import {ScrollTrigger} from "gsap/all";
+import Showcase from "./components/Showcase.tsx";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -14,6 +15,7 @@ const App = () => {
                 <Navbar/>
                 <Hero/>
                 <ProductViewer/>
+                <Showcase />
             </main>
         </ColorScaleProvider>
     )

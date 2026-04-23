@@ -25,6 +25,8 @@ const ProductViewer = () => {
                         <div onClick={()=>setModelSize("14")} className={clsx(modelSize==="14"?'bg-white text-black':'bg-transparent text-white')}><p>14"</p></div>
                         <div onClick={()=>setModelSize("16")} className={clsx(modelSize==="16"?'bg-white text-black':'bg-transparent text-white')}><p> 16" </p></div>
                     </div>
+
+
                 </div>
             </div>
             <Canvas id="canvas" camera={{ position:[0,2,5], fov:50, near:0.1, far:100}}>
